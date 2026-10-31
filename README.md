@@ -1,7 +1,7 @@
 ﻿# NX-batch-PDF-exporter【Siemens NX2412 批量导出工具】
 
 > **GitHub 仓库**：<https://github.com/hf1h9bgt/NX2412-batch-exporter>（改进版）
-> **便携版下载**：请到本仓库 [Releases](../../releases) 下载 `NX2412批量导出插件_便携版_v20261031.01_win64.zip`（解压即用，内置 Python）
+> **便携版下载**：请到本仓库 [Releases](../../releases) 下载 `NX2412-batch-export-portable-v20261031.01-win64.zip`（解压即用，内置 Python）
 > **新手请先阅读**：[使用说明.md](使用说明.md)
 
 > 本工具参考开源项目 [NX-batch-PDF-exporter](https://github.com/IYATT-yx/NX-batch-PDF-exporter)，在该项目基础上进行修改：新增批量导出 XT/STP 功能、更改 UI 界面及部分优化。  
@@ -100,7 +100,7 @@
 
 ### 方式一：便携式压缩包（推荐，日常批量导出）
 
-在 [Releases](../../releases) 下载 `NX2412批量导出插件_便携版_v20261031.01_win64.zip`（约 18 MB，内含约 50 MB 的文件），解压后是**逐个拆开的程序文件 + 内置 Python 运行时**（GitHub 仓库同款结构）：
+在 [Releases](../../releases) 下载 `NX2412-batch-export-portable-v20261031.01-win64.zip`（约 18 MB，内含约 50 MB 的文件；GitHub 附件名仅支持 ASCII，解压后文件夹仍为中文「批量导出插件」），解压后是**逐个拆开的程序文件 + 内置 Python 运行时**（GitHub 仓库同款结构）：
 
 ```
 批量导出插件\
@@ -178,7 +178,7 @@ python build_portable.py --no-zip
   * `创建快捷方式.cmd` —— 在本机生成 `.lnk` 快捷方式；
   * 插件源码逐文件复制（与仓库结构一致）+ `python/` 内置运行时 + `tcl/`、`lib/pypdf`、`locales/`、`doc/` 等资源；
   * `使用说明.txt` / `更新说明.txt` / `README.md` / `LICENSE`。
-* `NX2412批量导出插件_便携版_v20261031.01_win64.zip` —— Releases 风格便携式压缩包（解压即用，内置 Python；不预置 .lnk，见上文说明）；
+* `NX2412-batch-export-portable-v20261031.01-win64.zip` —— Releases 风格便携式压缩包（解压即用，内置 Python；不预置 .lnk，见上文说明）；
 * `SHA256SUMS.txt` —— 压缩包 SHA256 校验值。
 
 > `.lnk` 快捷方式是 Windows 的绝对路径文件，无法在压缩包内预置成“解压到任意路径都可用”，因此便携包用启动器 exe + `创建快捷方式.cmd` 代替：exe 双击即用（带图标），需要 `.lnk` 时运行一次命令即可生成。
