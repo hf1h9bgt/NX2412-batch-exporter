@@ -7,7 +7,7 @@
 > 本工具参考开源项目 [NX-batch-PDF-exporter](https://github.com/IYATT-yx/NX-batch-PDF-exporter)，在该项目基础上进行修改：新增批量导出 XT/STP 功能、更改 UI 界面及部分优化。  
 > 修改用 AI 智能体为 DEEPSEEK HARNESS  DEEPSEEK-V4.1 Flash1017 创造模式。
 
-![图纸导出（NX 内直连）](doc/image9.png)  
+![图纸导出（便携版）](doc/image9.png)  
 ![模型导出](doc/image10.png)  
 ![便携版界面](doc/image12.png)
 
