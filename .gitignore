@@ -1,0 +1,10 @@
+﻿__pycache__
+build_standalone/
+dist/
+build/
+*.spec
+批量导出插件.config.json
+批量导出插件.error.log
+build_portable/
+*.zip
+*.7z

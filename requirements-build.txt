@@ -1,0 +1,3 @@
+# 打包免安装版所需的开发依赖（运行插件本身不需要安装）
+# 用法： pip install -r requirements-build.txt
+pyinstaller>=6.0
